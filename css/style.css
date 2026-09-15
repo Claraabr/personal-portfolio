@@ -19,6 +19,7 @@ h2,
 h3 {
     color: #0f2a43;
 }
+
 img {
     display: block;
     height: auto;
@@ -35,9 +36,22 @@ section {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 20px 8%;
     background-color: lightblue;
+}
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+.nav-link {
+    color: #0f2a43;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #1075d3;
 }
 
 .skills-container {
