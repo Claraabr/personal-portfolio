@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+} /* pour tous les elements de la page la largeur d un element doit inclure = contenu+padding+bordure*/ 
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f9fc;
+    color: #1f2937 ;
+    font-family: Arial;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    color: #0f2a43;
+}
+img {
+    display: block;
+    height: auto;
+}
+.profile-pic {
+    width: 250px;
+    margin: 0 auto;
+}
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 90px 8%;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+    background-color: lightblue;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.section-title {
+    margin: 0;
+    color: #1075d3;
+    font-size: 36px;
+}
+
+.section-subtitle {
+    margin: 8px 0 0;
+    color: #0f2a43;
+    font-size: 18px;
+}
+.skill-card {
+    flex: 1;
+    min-width: 220px;
+    background-color:lightblue;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 24px;
+}
+footer {
+    text-align: center;
+    padding: 24px 8%;
+    background-color: #0f2a43;
+    color: #f7f9fc;
+}
