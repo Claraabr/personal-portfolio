@@ -1,5 +1,4 @@
 Personal Portfolio Page
-
 Name: Clara Abourjeily
 Course: Web Development
 Assignment: Personal Portfolio Page
